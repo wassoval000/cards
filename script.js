@@ -47,4 +47,9 @@ function cardToString(){
         return "INVALID CARD. STOP CHEATING.";
     }
 
+    return rank + " of " + suit;
+
 }
+
+var testCard = new Card(1,3);
+alert(testCard.toString);
